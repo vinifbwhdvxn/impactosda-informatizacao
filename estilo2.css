@@ -1,0 +1,182 @@
+
+body {
+    font-family: 'DM Serif Text', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.fundo {
+    background: white;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.teste {
+    background-color: blue;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Navegação */
+.Menu {
+    background: #34495e;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 1200px;
+}
+
+.Menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Menu li {
+    margin: 5px;
+}
+
+.Menu a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    background: #3498db;
+    border-radius: 20px;
+    transition: background 0.3s;
+    font-size: 0.9rem;
+}
+
+.Menu a:hover {
+    background: #2980b9;
+}
+
+/* Conteúdo principal */
+section {
+    padding: 20px;
+    width: 1200px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ul {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+strong {
+    color: #e74c3c;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+footer h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ecf0f1;
+}
+
+.rodape {
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.rodape li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.rodape a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+div.imagem{
+    text-align: center;
+}
+.slideshow {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+}
+.slide{
+    display: none;
+}
+.proximo, .anterior{
+cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+}
+.proximo{
+    right: 120px;
+
+}
+.proximo:hover, .anterior:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.pontos{
+    text-align: center;
+    margin-top: 10px;
+}
+.ponto{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.ativo, .ponto:hover{
+    background-color:#717171;
+}
+.imagens{
+    max-width: 200px;
+    max-height: 200px;
+text-align: center;
+background-color:#2c3e50 ;
+}
